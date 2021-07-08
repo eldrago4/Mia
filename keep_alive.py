@@ -1,12 +1,13 @@
-from flask import Flask
-from flask import Flask, url_for, session
+from flask import Flask, url_for ,session
 from flask import render_template, redirect
 from authlib.integrations.flask_client import OAuth
-from threading import Thread
+import threading
+import google
+import threading 
+from google_auth_oauthlib import flow
 
-app = Flask('Baburao Apte')
 # Flask Config Stuff
-app = Flask(__name__)
+app = Flask(__name__)session
 app.secret_key = '!secret'
 app.config.from_object('config')
 
@@ -17,7 +18,7 @@ oauth.register(
     name='google',
     server_metadata_url=CONF_URL,
     client_kwargs={
-        'scope': 'openid auth/userinfo.email https://www.googleapis.com/auth/spreadsheets'
+        'scope': 'https://www.googleapis.com/auth/spreadsheets'
         # Scope as defined in google developer consol
     }
 )
@@ -31,7 +32,7 @@ content1 = {'content': 'Hello from bot1'}
 
 # Flask Routes
 @app.route('/')
-def homepage():
+def home():
     # Start Flask user 'Session'
     user = session.get('user')
     return render_template('index.html', user=user)
@@ -52,8 +53,17 @@ def auth():
     # start flask user 'session'
     session['user'] = user
 
+    # return to homepage / root directory
+    return redirect('/')
+
+
+@app.route('/logout')
+def logout():
+    session.pop('user', None)
+    return redirect('/')
+    
 def run():
-  app.run(host='localhost',port=8080)
+  app.run(host='0.0.0.0',port=8080)
 
 def keep_alive():
     t = Thread(target=run)

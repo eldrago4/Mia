@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "baburao-apte",
+  "private_key_id": "42819cd377d5dea42fb0e47033c6fda825a25e4e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDIQalS24Po+AO/\nCyxju2bfwQxKL1d0iJwlpFvz3h/76kkXcpcfF+rQpUtk/3Ip5DhoMDFPcJlVeANb\nw/Hzy7ivS327i9yIpbMLYwENEiAXUsW5zy4UiJIQjH73wYGtCDOafzqGypPpeBX7\n9xQSwJvvXsR6aC/h1gusxvikJKegrrg4bqiFATWRya0Om4Go7zt4yQB8AbxUwYaL\nB7BrEkSeaPDrrNdcww/LYNJXsu4WiJNGSt4gyPla+BL9QOCw3eRMotBpdwlalK8j\nFQs3HN/G1qTgkRCAbXbZA2YEoFFXqzARScDtmEK7Vjw+6pz+hr0mSRXeUCPJJS/p\nXHn3CLlrAgMBAAECggEAEXRI/ganDS0Mz9/OmyoQMeF2y5fWahBRd9BxuU7mKm6w\nYeGkKAV4JdO6ag+qaNn89qEjXcwFJAIasiq2fIGIU924aZqA+sy3zyluboVivwBW\naTcUdPK1tHPidIAXvY1Q83QyauGI7y5Uet/SuT2zebN2ButCJ891uLX7oabrkLbH\nrkID8Cq0Vsxt+uBtbE56diTnx/4MPmRZLrvCy8MUm2g7XPGsaLJddXIwwkqk9pcE\nCVOXf3hiN8okhI7gCAeM2tK3ZA0YS/ucfpLgMLBz9RswQmXpJrQ3f1YRkqBN79A8\nvO9LPKdo2Q4eIid3zmNYK3aS8iW/hceP8H7szec84QKBgQDoh1DTIIoW2LQwgiwE\no8C+7TeJzHiYard/TC8adQvzyePhqCOd/F8+u3OodEWgSeshMZGH8yrXlmt90SXx\nRT4MYePqdCzuZem4Heru2bLwY0IgZ58xCl+jxG92FAbMUApQHASRjOkYstc75vEj\nPcfIJFjUoghOl5mUOi50P6KCCwKBgQDceGorfe/qXLKGwrCu4C6y1cSh8h5TARXy\nOQt5RwGhfFXZH/rZKySYiNXAsIyr7RQAmO9J7PAMWkPr0t181gfDbxnWJ+FveAtd\n0jqPxbIXPFvri/oOo/O/Rsq8tKm30RJCMiUNI9516MhMRfI7ZaRVWXoR6+4+hNF7\nfQk6uEGiIQKBgQDalMjvjnkAfPj1WIhUXDKFx6wbhvAeJsMTkOP+dOSlaLUknM/O\nZTyLVd6lDZed056J93ScXYN6YVXuUbrfEH4BWcvLyyWpfHe1sbn0iQRiYIv6ti25\nBc1dvvwf/TdevCbVo2DQCavcodEd6DvpKtwwUaqHR0GTz4J5CjA86syyfQKBgQCn\nXz7yn5v4ZsEdb0YkrIqnN4QckauVxhg8GDRusIo7ZyHhQNb18TvKFO95Zk6U4tmx\njmjyzU57gjdYG3AMKowgQQLzQrlxH0g5xLSymxoVa7w4uL5wSOVty7dzxQ+nPbBH\n0ruwGw/yoXMV/G/lyccVCGWUn3Dxw3Eo94Z/LoydIQKBgQDJTU95g8ZpLqGrr229\nAM/Z2CxnY5QC9Z1B2R8p73D+Kv37zN2FndAERD0inZKQnymxvjzEWf4jCxiGhPgK\nDjxMEy9DyJOC1hL1ctRrea7QWXFI8RgldygnMqXQhg+x3NYzJ2IN71pW7agNlfmh\nN+36a35I1XVT9lUnFKvpnAZW3A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "eldrago-693@baburao-apte.iam.gserviceaccount.com",
+  "client_id": "111667023367869654858",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eldrago-693%40baburao-apte.iam.gserviceaccount.com"
+}

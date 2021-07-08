@@ -6,7 +6,6 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-flask = "^2.0.1"
 replit = "^3.1.0"
 discord = "^1.7.3"
 requests = "2.25.1"
@@ -17,6 +16,7 @@ pickle4 = "^0.0.1"
 Discord-Emotes = "^1.2"
 Authlib = "^0.15.4"
 git42 = "^2021.1.31"
+Flask = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
 

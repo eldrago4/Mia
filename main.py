@@ -110,7 +110,7 @@ async def on_message(message):
             # Add
             print(message.created_at)
             SPREADSHEET_ID = ['1wC2RdSb-kV4x-alolfpckXu6fZ3VO1Hrr8AcfNJ0wEU']
-            RANGE_NAME = ['LECT']
+            RANGE_NAME = ['!attendanceA3:E34']
             DATA = [str(message.author.name)] + [str(message.author.id)] + [str(message.created_at)] + result
             sheet.add(SPREADSHEET_ID, RANGE_NAME, DATA)
             await message.channel.send('Your data has been successfully submitted!')

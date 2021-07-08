@@ -1,7 +1,6 @@
 from __future__ import print_function
 import pickle4 as pickle
 from flask import Flask, url_for, session
-from flask import render_template, redirect
 from authlib.integrations.flask_client import OAuth
 import os.path
 from googleapiclient.discovery import build
@@ -20,16 +19,8 @@ class gsheet(object):
 			with open('token.pickle', 'rb') as token:
 				self.creds = pickle.load(token)
 		# If there are no (valid) credentials available, let the user log in.
-		if not self.creds or not self.creds.valid:
-			if self.creds and self.creds.expired and self.creds.refresh_token:
-				self.creds.refresh(Request())
-			else:
-				flow = InstalledAppFlow.from_client_secrets_file(
-				    'credentials.json', SCOPES)
-				self.creds = flow.run_local_server()
+		# here 
 			# Save the credentials for the next run
-			with open('token.pickle', 'wb') as token:
-				pickle.dump(self.creds, token)
 
 		self.service = build('sheets', 'v4', credentials=self.creds)
 
