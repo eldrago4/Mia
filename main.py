@@ -102,6 +102,7 @@ async def on_message(message):
     if message.author == client.user:
         return
     if message.content.startswith('.s '):
+        FIELDS = 5
         
         # Code
         msg = message.content[3:]
