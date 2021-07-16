@@ -1,0 +1,7 @@
+replit
+discord
+requests
+future
+google-api-python-client
+google-auth-authlib
+pickle4
