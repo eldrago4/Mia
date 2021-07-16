@@ -7,7 +7,7 @@ import threading
 from google_auth_oauthlib import flow
 
 # Flask Config Stuff
-app = Flask(__name__)session
+app = Flask(__name__)
 app.secret_key = '!secret'
 app.config.from_object('config')
 
