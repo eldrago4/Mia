@@ -2,6 +2,12 @@ replit
 discord
 requests
 future
+google-api-core
 google-api-python-client
-google-auth-authlib
+google-auth
 pickle4
+pytz
+uritemplate
+authlib
+httplib2
+urllib3
