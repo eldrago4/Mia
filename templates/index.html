@@ -1,13 +1,13 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Baburao Apte</title>
+    <title>StarGods</title>
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,700" rel="stylesheet">
 	<link rel= "stylesheet" href= "{{ url_for('static',filename='css/style.css') }}">
-	<link rel="icon" href="favicon2.png">
+	<link rel="icon" href="static/favicon2.png">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed has-animations">
@@ -20,7 +20,7 @@
                         <h1 class="m-0">
                             <a href="#">
                                 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <title>Baburao Apte</title>
+                                    <title>StarGods</title>
                                     <defs>
                                         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="logo-b">
                                             <stop stop-color="#A8A3F6" offset="0%"/>
@@ -52,14 +52,14 @@
                         <div class="hero-copy">
                             <div class="container-sm">
                                 <h1 class="hero-title h2-mobile mt-0 is-revealing">A Little Friendly Competition.</h1>
-                                <p class="hero-paragraph is-revealing">Edit your spreadsheets from right inside your group chat thread. Exclusive to Discord™.</p>
+                                <p class="hero-paragraph is-revealing">Compare fitness stats with friends from right inside your group chat thread. Exclusive to Discord™.</p>
                                 <div class="hero-form newsletter-form field field-grouped is-revealing">
                                     <div class="control control-expanded">
 										{% if not user %}
                                         <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
 										{% else %}
 										<p class="hero-paragraph is-revealing">Welcome to the beta!</p>
-										<p class="hero-paragraph is-revealing">Simply keeping using Google Workspace!</p>
+										<p class="hero-paragraph is-revealing">Simply keeping using Google Fit!</p>
 
 										{% endif %}
                                     </div>
@@ -326,12 +326,12 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2021 eldrago solns, all rights reserved</div>
+                    <div class="footer-copyright">&copy; 2020 StarGods Labs, all rights reserved</div>
                 </div>
             </div>
         </footer>
     </div>
 
-    <script src="js/main.min.js"></script>
+    <script src="static/js/main.min.js"></script>
 </body>
 </html>
